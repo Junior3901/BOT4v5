@@ -68,7 +68,7 @@ void OnTick()
     
     while (lower_fractal_down == 0) {
     
-         double lower_fractal_down_temp = iFractals(NULL, PERIOD_H1, MODE_LOWER, lower_idx);
+         double lower_fractal_down_temp = iFractals(NULL, PERIOD_M15, MODE_LOWER, lower_idx);
          lower_idx++;
          if (lower_fractal_down_temp != 0) {
                lower_fractal_down = lower_fractal_down_temp;
